@@ -1,0 +1,42 @@
+@font-face {
+ font-family: "Helvetica Neue LT Std 67 Medium Condensed";
+ src: url("fonts/HelveticaNeueLTStd-MdCn.otf") format("otf"),
+}
+
+body {
+  text-transform: uppercase;
+  font-family: "Helvetica Neue LT Std 67 Medium Condensed", sans-serif;
+  color: black;
+  text-align: center;
+}
+
+.access_code_school {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 0;
+  padding-bottom: 0.16rem;
+}
+
+.access_code {
+  border-bottom: 1px solid black;
+  display: inline-block;
+}
+
+.code {
+  color: white;
+  width: 40px;
+  background: #d31f43;
+  padding: 0.1rem;
+}
+
+.chevron {
+  color: #d31f43
+}
+
+.school {
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: 2.6rem;
+  margin-top: 0.2rem;
+  margin-left: 1.4rem;
+}
